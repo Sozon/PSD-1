@@ -1,0 +1,906 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #8cc34b;
+}
+
+.logo__images {
+    display: block;
+    margin-left: 29px;
+    margin-top: 14px;
+    float: left;
+   
+    }
+
+    .logo__images-link {
+    /* Style for "scrubs" */
+    width: 60px;
+    height: 59px;
+    border-radius: 30px;
+    }
+
+    .logo__bistrov-name {
+        display: block;
+    float: left;
+    width: 270px;
+    height: 20px;
+    color: white;
+    font-family: FiraSans;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px;
+    }
+
+
+.logo__bistrov-link{
+    display: block;
+    width: 125px;
+    height: 16px;
+    opacity: 0.7;
+    color: white;
+    font-family: FiraSans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    float: left;
+}
+
+.logo__bistrov{
+    overflow: hidden;
+    width: 271px;
+    height: 42px;
+    margin-left: 19px;
+    margin-top: 25px;
+    float: left;
+}
+
+.nav {
+width: 138px;
+height: 31px;
+display: block;
+margin-right: 30px;
+margin-top: 30px;
+ float: right;
+}
+
+.nav__item-vk {
+    color: rgb(49, 170, 60);
+    text-decoration: none;
+    display: block;
+    float: right;
+    margin-top: 4px;
+}
+
+.nav__item-sk{
+margin-right: 20px;
+text-decoration: none;
+display: block;
+float: right;
+}
+
+.nav__item-git{
+margin-right: 19px;
+text-decoration: none;
+display: block;
+float: right;
+}
+
+.nav__link-vk {
+/* Text style for "" */
+width: 39px;
+height: 22px;
+color: white;
+font-family: FontAwesome;
+font-size: 35px;
+font-weight: 400;
+}
+
+.nav__link-sk {
+/* Text style for "" */
+width: 30px;
+height: 31px;
+opacity: 0.7;
+color: white;
+font-family: FontAwesome;
+font-size: 35px;
+font-weight: 400;
+}
+
+.nav__link-git {
+    opacity: 0.7;
+}
+
+/*////////////////////////////*section 2*/
+
+.apprentice {
+ width: 100%;
+ height: 473px;
+ overflow: hidden;
+}
+
+.apprentice__future  {
+height: 42px;
+margin-bottom: 19px;
+margin-top: 76px;
+text-align: center;
+color: #212121;
+font-family: FiraSans;
+font-size: 42px;
+font-weight: 500;
+line-height: 28px;
+}
+
+.appretice__loftschool {
+width: 100%;
+height: 21px;
+text-align: center;
+color: #727272;
+font-family: FiraSans;
+font-size: 21px;
+font-weight: 300;
+line-height: 28px;
+display: block;
+}
+
+.apprentice__hello_me {
+    /* Text style for "Мой опыт в раз" */
+margin-left: 22px;
+width: 169px;
+height: 17px;
+color: #212121;
+font-family: FiraSans;
+font-size: 21px;
+font-weight: 400;
+line-height: 28px;
+float: left;
+}
+
+.apprentice__hello_images {
+/* Style for "hello" */
+width: 140px;
+height: 137px;
+float: left;
+}
+
+.apprentice__hello_piter{
+    width: 275px;
+    height: 164px;
+    float: left;
+    margin: 18px 0px 0px 21px;
+    float: left;
+    font-family: FiraSans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #727272;
+}
+
+.apprentice__hello_yandex{
+    color: #03a9f4;
+text-decoration: underline;
+}
+
+.apprentice__hello {
+    width: 436px;
+    height: 199px;
+
+    float: left;
+}
+.apprentice_two-section {
+    width: 920px;
+    height: 199px;
+    margin-top: 41px;
+    overflow: hidden;
+}
+
+ /*///////////////////////////////*/
+
+.apprentice__experiens-images {
+ /* Style for "experience" */
+width: 140px;
+height: 129px;
+    float: left; 
+}
+
+
+.apprentice__experiens {
+    width: 439px;
+    height: 155px;
+    margin-left: 45px;
+    float: left;
+}
+.apprentice__experiens_description{
+width: 280px;
+height: 119px;
+margin: 15px 0px 0px 19px;
+float: left;
+color: #727272;
+font-family: FiraSans;
+font-size: 14px;
+font-weight: 300;
+line-height: 21px;
+}
+
+.apprentice__experiens_my{
+    width: 232px;
+    height: 22px;
+    margin-left: 19px;
+    float: left;
+    color: #212121;
+    font-family: FiraSans;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* section main*/
+.courses{
+    width: 100%;
+    height: 1239px;
+
+    overflow: hidden;
+    background-color: #f6f7f2;
+    background-image: url(./images/bg.jpg)
+}
+
+.loftblog{
+    color: #212121;
+    font-family: FiraSans;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 28px;
+    display: block;
+    text-align: CENTER;
+    margin-top: 80px;
+}
+
+.help{
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    display: block;
+    text-align: center;
+}
+
+/*js//////////////////////////////////////*/
+
+.courses_six-block {
+    width: 943px;
+    height: 957px;
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+.js{
+    Width:300px;
+    height: 429px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+
+    float: left;
+}
+
+.js__img{
+    float: left;
+}
+
+.js__line{
+    width: 300px;
+    height: 5px;
+    background-color: #8cc34b;  
+    float: left;
+}
+
+.js__title{
+    width: 176px;
+    height: 22px;
+    color: #8cc34b;
+    font-family: FiraSans;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin: 188px 103px 0px 21px;
+}
+
+.js__descriphion{
+    width: 256px;
+    height: 95px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+
+    margin: 15px 24px 0px 20px;
+}
+
+.js__time{
+    width: 192px;
+    height: 15px;
+    color: #b6b6b6;
+    font-size: 14px;
+    line-height: 21px;
+
+    font-family: FiraSans;
+    font-weight: 300;
+    float: left;
+    margin: 18px 88px 0px 20px;
+}
+
+.js__wall-clock{
+    font-family: FontAwesome;
+    font-weight: 400;
+    float: left;
+
+    margin: 0px 0px 0px 20px;
+}
+
+.js__looked{
+    width: 300px;
+    height: 60px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    background-color: #f6f7f2;
+
+    float: left;
+    margin: 16px 0px 0px 0px;
+}
+
+.js__looked-img{
+    float: left;
+    margin: 20px 0px 0px 20px;
+}
+
+.js__looked-discription{
+    width: 90px;
+    height: 17px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+
+    float: left;
+    margin: 20px 0px 0px 19px;
+}
+
+/*jquery/////////////////////////////*/
+
+.jquery{
+    Width:300px;
+    height: 429px;
+    background-color: #e8f3db;
+    border-radius: 2px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+
+    float: left;
+    margin: 0px 0px 0px 18px;
+}
+
+.jquery__img{
+    float: left;
+}
+
+.jquery__line{
+    width: 300px;
+    height: 5px;
+    background-color: #8cc34b;  
+    float: left;
+}
+
+.jquery__title{
+    width: 176px;
+    height: 22px;
+    color: #6b765f;
+    font-family: FiraSans;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin: 188px 103px 0px 21px;
+}
+
+.jquery__descriphion{
+    width: 256px;
+    height: 95px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+
+    margin: 15px 24px 0px 20px;
+}
+
+.jquery__time{
+    width: 192px;
+    height: 15px;
+    color: #b6b6b6;
+    font-size: 14px;
+    line-height: 21px;
+
+    font-family: FiraSans;
+    font-weight: 300;
+    float: left;
+    margin: 18px 88px 0px 20px;
+}
+
+.jquery__wall-clock{
+    font-family: FontAwesome;
+    font-weight: 400;
+    float: left;
+
+    margin: 0px 0px 0px 20px;
+}
+
+.jquery__looked{
+    width: 300px;
+    height: 60px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    background-color: #e3efd5;
+
+    float: left;
+    margin: 16px 0px 0px 0px;
+}
+
+.jquery__looked-img{
+    float: left;
+    margin: 20px 0px 0px 20px;
+}
+
+.jquery__looked-discription{
+width: 90px;
+height: 17px;
+color: #8cc34b;
+font-family: FiraSans;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+
+    float: left;
+    margin: 20px 0px 0px 19px;
+}
+
+/*basic/////////////////////////////*/
+
+.basic{
+    Width:300px;
+    height: 475px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+
+    float: left;
+    margin: 0px 0px 23px 17px;
+}
+
+.basic__img{
+    float: left;
+}
+
+.basic__line{
+    width: 300px;
+    height: 5px;
+    background-color: #8cc34b;  
+    float: left;
+}
+
+.basic__title{
+    width: 184px;
+    height: 44px;
+    color: #212121;
+    font-family: FiraSans;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin: 188px 103px 0px 21px;
+}
+
+.basic__descriphion{
+    width: 248px;
+    height: 118px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+
+    margin: 15px 24px 0px 20px;
+}
+
+.basic__time{
+    width: 177px;
+    height: 15px;
+    color: #b6b6b6;
+    font-size: 14px;
+    line-height: 21px;
+
+    font-family: FiraSans;
+    font-weight: 300;
+    float: left;
+    margin: 16px 88px 0px 20px;
+}
+
+.basic__wall-clock{
+    font-family: FontAwesome;
+    font-weight: 400;
+    float: left;
+
+    margin: 0px 0px 0px 20px;
+}
+
+.basic__looked{
+    width: 300px;
+    height: 60px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    background-color: #f6f7f2;
+
+    float: left;
+    margin: 19px 0px 0px 0px;
+}
+
+.basic__looked-img{
+    float: left;
+    margin: 20px 0px 0px 20px;
+}
+
+.basic__looked-discription{
+    width: 90px;
+    height: 17px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+
+    float: left;
+    margin: 20px 0px 0px 19px;
+}
+
+/*///adaptive////////////////////*/
+
+.adaptive{
+    Width:300px;
+    height: 413px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+
+    float: left;
+}
+
+.adaptive__img{
+    float: left;
+}
+
+.adaptive__line{
+    width: 300px;
+    height: 5px;
+    background-color: #8cc34b;  
+    float: left;
+}
+
+.adaptive__title{
+    width: 218px;
+    height: 40px;
+    color: #212121;
+    font-family: FiraSans;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin: 188px 103px 0px 21px;
+}
+
+.adaptive__descriphion{
+    width: 250px;
+    height: 55px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+
+    margin: 20px 24px 0px 20px;
+}
+
+.adaptive__time{
+    width: 192px;
+    height: 15px;
+    color: #b6b6b6;
+    font-size: 14px;
+    line-height: 21px;
+
+    font-family: FiraSans;
+    font-weight: 300;
+    float: left;
+    margin: 17px 88px 0px 20px;
+}
+
+.adaptive__wall-clock{
+    font-family: FontAwesome;
+    font-weight: 400;
+    float: left;
+
+    margin: 0px 0px 0px 20px;
+}
+
+.adaptive__looked{
+    width: 300px;
+    height: 60px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    background-color: #f6f7f2;
+
+    float: left;
+    margin: 18px 0px 0px 0px;
+}
+
+.adaptive__looked-img{
+    float: left;
+    margin: 20px 0px 0px 20px;
+}
+
+.adaptive__looked-discription{
+    width: 90px;
+    height: 17px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+
+    float: left;
+    margin: 20px 0px 0px 19px;
+}
+
+/*/button/////////////////////////*/
+
+.button{
+    Width:300px;
+    height: 456px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+
+    float: left;
+    margin: 0px 0px 69px 20px;
+}
+
+.button__img{
+    float: left;
+}
+
+.button__line{
+    width: 300px;
+    height: 5px;
+    background-color: #8cc34b;  
+    float: left;
+}
+
+.button__title{
+    width: 237px;
+    height: 46px;
+    color: #212121;
+    font-family: FiraSans;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin: 188px 103px 0px 21px;
+}
+
+.button__descriphion{
+    width: 241px;
+    height: 97px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+
+    margin: 16px 24px 0px 20px;
+}
+
+.button__time{
+    width: 192px;
+    height: 15px;
+    color: #b6b6b6;
+    font-size: 14px;
+    line-height: 21px;
+
+    font-family: FiraSans;
+    font-weight: 300;
+    float: left;
+    margin: 17px 88px 0px 20px;
+}
+
+.button__wall-clock{
+    font-family: FontAwesome;
+    font-weight: 400;
+    float: left;
+
+    margin: 0px 0px 0px 20px;
+}
+
+.button__looked{
+    width: 300px;
+    height: 60px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    background-color: #f6f7f2;
+
+    float: left;
+    margin: 17px 0px 0px 0px;
+}
+
+.button__looked-img{
+    float: left;
+    margin: 20px 0px 0px 20px;
+}
+
+.button__looked-discription{
+    width: 90px;
+    height: 17px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+
+    float: left;
+    margin: 20px 0px 0px 19px;
+}
+
+/*/css////////////////////////////////////////*/
+
+.css{
+    Width:300px;
+    height: 413px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+
+    float: left;
+    margin: 0px 0px 69px 20px;
+}
+
+.css__img{
+    float: left;
+}
+
+.css__title{
+    width: 237px;
+    height: 46px;
+    color: #212121;
+    font-family: FiraSans;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin: 188px 103px 0px 21px;
+}
+
+.css__descriphion{
+    width: 230px;
+    height: 54px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+
+    margin: 15px 24px 0px 20px;
+}
+
+.css__time{
+    width: 192px;
+    height: 15px;
+    color: #b6b6b6;
+    font-size: 14px;
+    line-height: 21px;
+
+    font-family: FiraSans;
+    font-weight: 300;
+    float: left;
+    margin: 19px 88px 0px 20px;
+}
+
+.css__wall-clock{
+    font-family: FontAwesome;
+    font-weight: 400;
+    float: left;
+
+    margin: 0px 0px 0px 20px;
+}
+
+.css__looked{
+    width: 300px;
+    height: 60px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    background-color: #f6f7f2;
+
+    float: left;
+    margin: 16px 0px 0px 0px;
+}
+
+.css__looked-img{
+    float: left;
+    margin: 20px 0px 0px 20px;
+}
+
+.css__looked-discription{
+    width: 90px;
+    height: 17px;
+    color: #727272;
+    font-family: FiraSans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+
+    float: left;
+    margin: 20px 0px 0px 19px;
+}
+
+/*///footer////// */
+
+.footer{
+    width: 100%;
+    height: 72px;
+    background-color: #212121;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+    float: left;
+
+}
+
+.footer__discrition{
+width: 509px;
+height: 37px;
+opacity: 0.5;
+color: white;
+font-family: FiraSans;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+padding: 19px 0px 13px 0px;
+}
+/
